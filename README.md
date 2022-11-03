@@ -2,6 +2,7 @@
 - 👀 * *Currently I'm working with python,odoo,Postgre,JS
 - 🌱 * *I’m currently learning data science and algorithm
 - 💞️ * *I’m highly interested in machine learning,deep learning
+- Besides Programming, I enjoy reading books on Mythology, Fiction,History, Detective Fiction.
 - 📫 * *You can reach me at anikajerin2@gmail.com,jerin.stu2014@juniv.edu, www.linkedin.com/in/anika-jerin
 
 <!---
