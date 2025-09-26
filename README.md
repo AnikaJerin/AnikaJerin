@@ -3,7 +3,7 @@
 - 🌱 * *I’m currently learning data science and algorithm
 - 💞️ * *I’m highly interested in machine learning,deep learning
 - Besides Programming, I enjoy reading books on Mythology, Fiction,History, Detective Fiction.
-- 📫 * *You can reach me at anikajerin2@gmail.com,jerin.stu2014@juniv.edu, www.linkedin.com/in/anika-jerin
+- 📫 * *You can reach me at anikajerin2@gmail.com,s.anikajerin@gmail.com, www.linkedin.com/in/anika-jerin
 
 <!---
 AnikaJerin/AnikaJerin is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
