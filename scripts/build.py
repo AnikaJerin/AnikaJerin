@@ -53,8 +53,8 @@ for name,n in langs:
 parts.append('</g>')
 for i,(name,n) in enumerate(langs[:4]):
     x = 22 + (i%2)*205; y = 123 + (i//2)*29
-    parts.append(f'<circle cx="{x}" cy="{y-4}" r="5" fill="{COLORS.get(name,"#a78bfa")}"/><text x="{x+12}" y="{y}" fill="{FG}" font-size="12">{escape(name)} {n}</text>')
-write('languages.svg','Programming languages',f'Primary language · {known} non-fork public repos',''.join(parts))
+    parts.append(f'<circle cx="{x}" cy="{y-4}" r="5" fill="{COLORS.get(name,"#a78bfa")}"/><text x="{x+12}" y="{y}" fill="{FG}" font-size="12">{escape(name)} {100*n/known:.1f}%</text>')
+write('languages.svg','Languages by repository',f'Primary label among {known} non-fork public repos',''.join(parts))
 
 # Counts for the horizontal bar card.
 parts=[]
@@ -76,22 +76,42 @@ for (x,y),val in zip(points,vals):
     body.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="4" fill="#22d3ee"/><text x="{x:.1f}" y="{y-9:.1f}" text-anchor="middle" fill="{FG}" font-size="11">{val}</text>')
 write('updates.svg','Latest update year','Public repos grouped by their most recent update',''.join(body))
 
-# Animated GIF ring: language coverage of original (non-fork) repositories.
-covered = known; denominator = known + D['unclassified']
+# Animated donut: distribution of detected primary repository labels.
 W,H=430,180
 font_path='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf'
-regular=ImageFont.truetype(font_path,13); titlefont=ImageFont.truetype(font_path,18); big=ImageFont.truetype(font_path,28)
+regular=ImageFont.truetype(font_path,12); titlefont=ImageFont.truetype(font_path,18); big=ImageFont.truetype(font_path,24)
 frames=[]
-for frame in range(24):
+hex_colors=[COLORS.get(name,'#a78bfa') for name,_ in langs]
+for frame in range(25):
     im=Image.new('RGB',(W,H),BG); draw=ImageDraw.Draw(im)
     draw.rounded_rectangle((0,0,W-1,H-1),radius=16,outline='#1b3458',width=1)
-    draw.text((20,16),'Language coverage',font=titlefont,fill=FG)
-    draw.text((20,42),'Public non-fork repositories',font=regular,fill=MUTED)
-    box=(31,76,117,162); draw.arc(box,0,359,fill='#254264',width=11)
-    draw.arc(box,-90,-90+360*covered/denominator*(frame+1)/24,fill='#22d3ee',width=11)
-    draw.text((48,105),f'{covered}/{denominator}',font=regular,fill=FG)
-    draw.text((145,84),f'{covered} classified',font=big,fill=FG)
-    draw.text((145,124),f'{D["unclassified"]} without a detected language',font=regular,fill=MUTED)
+    draw.text((20,15),'Language mix',font=titlefont,fill=FG)
+    draw.text((20,40),'Primary label · public original repositories',font=regular,fill=MUTED)
+    box=(27,72,127,172); draw.arc(box,0,359,fill='#254264',width=17)
+    angle=-90
+    for (name,n), color in zip(langs,hex_colors):
+        arc=360*n/known*(frame+1)/25
+        draw.arc(box,int(angle),int(angle+arc),fill=color,width=17)
+        angle+=arc
+    draw.text((53,106),str(known),font=big,fill=FG)
+    for i,(name,n) in enumerate(langs[:4]):
+        yy=72+i*25
+        draw.ellipse((158,yy+4,168,yy+14),fill=hex_colors[i])
+        draw.text((180,yy),f'{name}  {100*n/known:.1f}%',font=regular,fill=FG)
     frames.append(im)
-frames[0].save(OUT/'coverage.gif',save_all=True,append_images=frames[1:],duration=55,loop=0,optimize=True)
+frames[0].save(OUT/'languages.gif',save_all=True,append_images=frames[1:],duration=55,loop=0,optimize=True)
+
+# A wide stats + line card modeled on the reference's proportions.
+w=680; h=190
+left=f'''<text x="20" y="78" fill="{FG}" font-size="13">◈  {D['total']} public repositories</text><text x="20" y="106" fill="{FG}" font-size="13">◈  50 contributions in the last year*</text><text x="20" y="134" fill="{FG}" font-size="13">◈  Active on GitHub since 2020</text><text x="20" y="162" fill="{FG}" font-size="13">◈  7 commits in Sep 2026*</text>'''
+years = sorted(D['years']); values=[D['years'][y] for y in years]
+pts=[]
+for i,(year,val) in enumerate(zip(years,values)):
+    xx=322+i*49; yy=144-63*val/max(values)
+    pts.append((xx,yy))
+chart=f'<polyline points="{" ".join(f"{xx:.0f},{yy:.0f}" for xx,yy in pts)}" fill="none" stroke="#a78bfa" stroke-width="3"/>'
+for (xx,yy),year,val in zip(pts,years,values):
+    chart+=f'<circle cx="{xx}" cy="{yy:.0f}" r="4" fill="#22d3ee"/><text x="{xx}" y="{yy-10:.0f}" text-anchor="middle" fill="{FG}" font-size="10">{val}</text><text x="{xx}" y="164" text-anchor="middle" fill="{MUTED}" font-size="10">{year[2:]}</text>'
+card=f'''<svg xmlns="http://www.w3.org/2000/svg" width="680" height="190" viewBox="0 0 680 190" role="img"><title>GitHub snapshot and last update year</title><rect width="680" height="190" rx="16" fill="''' + BG + '''"/><rect x=".5" y=".5" width="679" height="189" rx="15" fill="none" stroke="#1b3458"/><g font-family="Arial,sans-serif"><text x="20" y="35" fill="''' + FG + '''" font-size="19" font-weight="700">AnikaJerin · GitHub snapshot</text><text x="322" y="35" fill="''' + MUTED + '''" font-size="12">Repositories by latest update year</text>''' + left + chart + '</g></svg>'
+(OUT/'stats.svg').write_text(card)
 print('Built four cards:',D)

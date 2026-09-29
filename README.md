@@ -12,18 +12,21 @@ I turn complex workflows and research ideas into software people can use. Over s
 
 ### GitHub analytics
 
+<div align="center">
+<img src="assets/stats.svg" width="96%" alt="GitHub snapshot with public repositories, contributions, September commits and a line chart of last update years" />
+</div>
+
 <table>
 <tr>
-<td width="50%"><img src="assets/languages.svg" width="100%" alt="Stacked bar of primary languages in public non-fork repositories" /></td>
-<td width="50%"><img src="assets/coverage.gif" width="100%" alt="Animated ring showing repositories with a detected primary language" /></td>
-</tr>
-<tr>
-<td width="50%"><img src="assets/updates.svg" width="100%" alt="Line chart grouping public repositories by their most recent update year" /></td>
-<td width="50%"><img src="assets/counts.svg" width="100%" alt="Bar chart of public non-fork repositories by primary language" /></td>
+<td width="33%"><img src="assets/languages.svg" width="100%" alt="Stacked percentage bar for public repository primary languages" /></td>
+<td width="33%"><img src="assets/languages.gif" width="100%" alt="Animated donut of detected primary language labels" /></td>
+<td width="33%"><img src="assets/counts.svg" width="100%" alt="Horizontal count bars for primary languages" /></td>
 </tr>
 </table>
 
-<sub>Public repository snapshot; the language panels count each non-fork repository once, not code bytes or proficiency. GitHub labels notebooks as “Jupyter Notebook.” The line groups repositories by their latest update year, so past points can move when a repository is edited. Cards refresh weekly through GitHub Actions.</sub>
+<sub>*50 contributions in the last year and 7 commits in September 2026 were read from my public GitHub profile on September 29, 2026. The other cards refresh weekly. The language percentages count one detected primary label per non-fork public repository; they do not measure skill, code volume, or private professional work. Jupyter Notebook is GitHub's label for notebook repositories.</sub>
+
+**Languages and technologies used beyond the primary-repository chart:** C · C++ · Go · Java · JavaScript · Python · HTML/CSS · React · Odoo/OWL. React and Odoo are frameworks/platforms, so including them in a programming-language percentage would be misleading.
 
 ### My engineering map
 
