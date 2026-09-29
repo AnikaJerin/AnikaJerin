@@ -12,40 +12,21 @@ I turn complex workflows and research ideas into software people can use. Over s
 
 ### GitHub analytics
 
-<div align="center">
-<img src="assets/stats.svg" width="96%" alt="GitHub snapshot with public repositories, contributions, September commits and a line chart of last update years" />
-</div>
-
 <table>
 <tr>
-<td width="33%"><img src="assets/languages.svg" width="100%" alt="Stacked percentage bar for public repository primary languages" /></td>
-<td width="33%"><img src="assets/languages.gif" width="100%" alt="Animated donut of detected primary language labels" /></td>
-<td width="33%"><img src="assets/counts.svg" width="100%" alt="Horizontal count bars for primary languages" /></td>
+<td width="65%"><img src="assets/stats.svg" width="100%" alt="Public GitHub statistics and latest repository update year" /></td>
+<td width="35%"><img src="assets/languages.gif" width="100%" alt="Animated donut of detected primary repository language labels" /></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/languages.svg" width="100%" alt="Percentage strip of primary repository language labels" /></td>
+<td width="50%"><img src="assets/counts.svg" width="100%" alt="Repository count bars by primary language" /></td>
 </tr>
 </table>
 
-<sub>*50 contributions in the last year and 7 commits in September 2026 were read from my public GitHub profile on September 29, 2026. The other cards refresh weekly. The language percentages count one detected primary label per non-fork public repository; they do not measure skill, code volume, or private professional work. Jupyter Notebook is GitHub's label for notebook repositories.</sub>
-
-**Languages and technologies used beyond the primary-repository chart:** C · C++ · Go · Java · JavaScript · Python · HTML/CSS · React · Odoo/OWL. React and Odoo are frameworks/platforms, so including them in a programming-language percentage would be misleading.
-
 ### My engineering map
 
-<div align="center">
-
-**BUILD & CONNECT**<br/>
-<img src="https://skillicons.dev/icons?i=py,js,react,flask,fastapi,postgres,git,github&amp;theme=dark&amp;perline=8" width="355" alt="Python, JavaScript, React, Flask, FastAPI, PostgreSQL, Git and GitHub" /><br/>
-<strong>Odoo · OWL · Python · PostgreSQL · APIs</strong>
-
-<br/><br/>
-
-**↓ LEARN FROM DATA ↓**<br/>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn&amp;theme=dark&amp;perline=4" width="180" alt="PyTorch, TensorFlow, OpenCV and scikit-learn" /><br/>
-<strong>Computer vision · Machine learning · Multimodal AI</strong>
-
-<br/><br/>
-
-**↓ MAKE IT VISIBLE ↓**<br/>
-<img src="https://skillicons.dev/icons?i=threejs,html,css&amp;theme=dark&amp;perline=3" width="135" alt="Three.js, HTML and CSS" /><br/>
-<strong>Three.js · ECharts · amCharts · Chart.js</strong>
-
-</div>
+<table>
+<tr><td align="center" width="25%"><strong>BUILD & CONNECT</strong></td><td><img src="https://skillicons.dev/icons?i=py,js,react,flask,fastapi,postgres,git,github&amp;theme=dark&amp;perline=8" width="340" alt="Python, JavaScript, React, Flask, FastAPI, PostgreSQL, Git and GitHub" /><br/>Odoo · OWL · Python · PostgreSQL · APIs</td></tr>
+<tr><td align="center"><strong>LEARN FROM DATA</strong></td><td><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn&amp;theme=dark&amp;perline=4" width="170" alt="PyTorch, TensorFlow, OpenCV and scikit-learn" /><br/>Computer vision · Machine learning · Multimodal AI</td></tr>
+<tr><td align="center"><strong>MAKE IT VISIBLE</strong></td><td><img src="https://skillicons.dev/icons?i=threejs,html,css,c,cpp,java,go&amp;theme=dark&amp;perline=7" width="300" alt="Three.js, HTML, CSS, C, C++, Java and Go" /><br/>Three.js · ECharts · amCharts · Chart.js</td></tr>
+</table>
