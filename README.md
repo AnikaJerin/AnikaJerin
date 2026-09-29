@@ -6,7 +6,7 @@
 
 I turn complex workflows and research ideas into software people can use. Over seven years, I've built enterprise platforms and Odoo systems, contributed to traffic-monitoring and weather-data solutions, and explored medical AI, computer vision, HCI, and interactive 3D.
 
-[Portfolio](https://anikajerin.github.io/anika-portfolio/) · [Repositories](https://github.com/AnikaJerin?tab=repositories) · [LinkedIn](https://www.linkedin.com/in/anika-jerin/)
+<a href="https://anikajerin.github.io/anika-portfolio/"><img src="assets/portfolio.svg" alt="Portfolio" height="38" /></a>&nbsp; <a href="https://github.com/AnikaJerin?tab=repositories"><img src="assets/repositories.svg" alt="Repositories" height="38" /></a>&nbsp; <a href="https://www.linkedin.com/in/anika-jerin/"><img src="assets/linkedin.svg" alt="LinkedIn" height="38" /></a>
 
 </div>
 
@@ -14,12 +14,12 @@ I turn complex workflows and research ideas into software people can use. Over s
 
 <table>
 <tr>
-<td width="65%"><img src="assets/stats.svg" width="100%" alt="Public GitHub statistics and latest repository update year" /></td>
-<td width="35%"><img src="assets/languages.gif" width="100%" alt="Animated donut of detected primary repository language labels" /></td>
+<td width="62%"><img src="assets/stats.svg" width="100%" alt="Public GitHub statistics and filled area chart of repository update years" /></td>
+<td width="38%"><img src="assets/activity.svg" width="100%" alt="Contribution streak, commits, pull requests and issues" /></td>
 </tr>
 <tr>
-<td width="50%"><img src="assets/languages.svg" width="100%" alt="Percentage strip of primary repository language labels" /></td>
-<td width="50%"><img src="assets/counts.svg" width="100%" alt="Repository count bars by primary language" /></td>
+<td width="50%"><img src="assets/languages.gif" width="100%" alt="Animated donut chart of public repository primary languages" /></td>
+<td width="50%"><img src="assets/languages.svg" width="100%" alt="Language counts, percentages, and other languages and frameworks used" /></td>
 </tr>
 </table>
 
