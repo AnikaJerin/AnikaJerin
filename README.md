@@ -4,7 +4,7 @@
 
 **Software Engineer · AI Engineer · Research Explorer**
 
-I turn complex workflows and research ideas into software people can use. Over seven years, I've built enterprise platforms and Odoo systems, contributed to traffic-monitoring and weather-data solutions, and explored medical AI, computer vision, HCI, and interactive 3D.
+I’m a software engineer with over five years of experience building enterprise platforms, customizing Odoo and AI-powered systems, and developing practical solutions for complex workflows. My work spans government and enterprise organizations, imaging, multimodal AI, computer vision, HCI, and interactive 3D applications.
 
 <a href="https://anikajerin.github.io/anika-portfolio/"><img src="assets/portfolio.svg" alt="Portfolio" height="38" /></a>&nbsp; <a href="https://github.com/AnikaJerin?tab=repositories"><img src="assets/repositories.svg" alt="Repositories" height="38" /></a>&nbsp; <a href="https://www.linkedin.com/in/anika-jerin/"><img src="assets/linkedin.svg" alt="LinkedIn" height="38" /></a>
 
