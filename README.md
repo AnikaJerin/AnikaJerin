@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Anika Jerin 👋
+# Hi, I'm Syeda Anika Jerin 👋
 
 **Software Engineer · AI Engineer**
 
