@@ -1,0 +1,20 @@
+{
+  "total": 38,
+  "classified": {
+    "Python": 18,
+    "Jupyter Notebook": 9,
+    "JavaScript": 2,
+    "Go": 1
+  },
+  "unclassified": 7,
+  "forks": 1,
+  "years": {
+    "2020": 10,
+    "2021": 6,
+    "2022": 2,
+    "2023": 1,
+    "2024": 0,
+    "2025": 10,
+    "2026": 9
+  }
+}

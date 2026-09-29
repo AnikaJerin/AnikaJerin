@@ -10,36 +10,39 @@ I turn complex workflows and research ideas into software people can use. Over s
 
 </div>
 
-### A small snapshot
+### GitHub analytics
 
 <table>
 <tr>
-<td align="center" width="48%" valign="top">
-
-**Languages in my public repositories**<br/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AnikaJerin&amp;layout=donut&amp;langs_count=6&amp;card_width=330&amp;hide_border=true&amp;bg_color=0b1220&amp;title_color=e2e8f0&amp;text_color=94a3b8&amp;disable_animations=false" width="330" alt="Automatically updated animated donut of languages detected in AnikaJerin's public repositories" />
-
-</td>
-<td align="center" width="52%" valign="top">
-
-**My engineering map**<br/><br/>
-<sub>BUILD &amp; CONNECT</sub><br/>
-<img src="https://skillicons.dev/icons?i=py,js,react,flask,fastapi,postgres&amp;theme=dark&amp;perline=6" width="270" alt="Python, JavaScript, React, Flask, FastAPI and PostgreSQL" /><br/>
-<sub>↓ &nbsp; LEARN FROM DATA &nbsp; ↓</sub><br/>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn&amp;theme=dark&amp;perline=4" width="180" alt="PyTorch, TensorFlow, OpenCV and scikit-learn" /><br/>
-<sub>↓ &nbsp; MAKE IT VISIBLE &nbsp; ↓</sub><br/>
-<img src="https://skillicons.dev/icons?i=threejs&amp;theme=dark" width="45" alt="Three.js for interactive 3D" />
-
-</td>
+<td width="50%"><img src="assets/languages.svg" width="100%" alt="Stacked bar of primary languages in public non-fork repositories" /></td>
+<td width="50%"><img src="assets/coverage.gif" width="100%" alt="Animated ring showing repositories with a detected primary language" /></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/updates.svg" width="100%" alt="Line chart grouping public repositories by their most recent update year" /></td>
+<td width="50%"><img src="assets/counts.svg" width="100%" alt="Bar chart of public non-fork repositories by primary language" /></td>
 </tr>
 </table>
 
-<sub>The donut is based on detected language bytes in public repositories; it does not include private client work or measure proficiency. Icons describe tools I've used; they are intentionally not ranked.</sub>
+<sub>Public repository snapshot; the language panels count each non-fork repository once, not code bytes or proficiency. GitHub labels notebooks as “Jupyter Notebook.” The line groups repositories by their latest update year, so past points can move when a repository is edited. Cards refresh weekly through GitHub Actions.</sub>
+
+### My engineering map
 
 <div align="center">
 
-**AI · Vision · Enterprise Software · Interactive Systems**
+**BUILD & CONNECT**<br/>
+<img src="https://skillicons.dev/icons?i=py,js,react,flask,fastapi,postgres,git,github&amp;theme=dark&amp;perline=8" width="355" alt="Python, JavaScript, React, Flask, FastAPI, PostgreSQL, Git and GitHub" /><br/>
+<strong>Odoo · OWL · Python · PostgreSQL · APIs</strong>
 
-[See the work behind the charts →](https://anikajerin.github.io/anika-portfolio/)
+<br/><br/>
+
+**↓ LEARN FROM DATA ↓**<br/>
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn&amp;theme=dark&amp;perline=4" width="180" alt="PyTorch, TensorFlow, OpenCV and scikit-learn" /><br/>
+<strong>Computer vision · Machine learning · Multimodal AI</strong>
+
+<br/><br/>
+
+**↓ MAKE IT VISIBLE ↓**<br/>
+<img src="https://skillicons.dev/icons?i=threejs,html,css&amp;theme=dark&amp;perline=3" width="135" alt="Three.js, HTML and CSS" /><br/>
+<strong>Three.js · ECharts · amCharts · Chart.js</strong>
 
 </div>
