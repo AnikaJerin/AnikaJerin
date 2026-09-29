@@ -9,7 +9,7 @@ I’m a software engineer with over five years of experience building enterprise
 <a href="https://anikajerin.github.io/anika-portfolio/"><img src="assets/portfolio.svg" alt="Portfolio" height="38" /></a>&nbsp; <a href="https://github.com/AnikaJerin?tab=repositories"><img src="assets/repositories.svg" alt="Repositories" height="38" /></a>&nbsp; <a href="https://www.linkedin.com/in/anika-jerin/"><img src="assets/linkedin.svg" alt="LinkedIn" height="38" /></a>
 
 </div>
-### 🌿 Beyond the Code
+🌿 Beyond the Code
 
 📚 **Bookworm** — always somewhere between one more chapter and one more book.  
 🎨 **I paint** — when my brain needs a different kind of canvas.  
