@@ -2,7 +2,7 @@
 
 # Hi, I'm Anika Jerin 👋
 
-**Software Engineer · AI Engineer · Research Explorer**
+**Software Engineer · AI Engineer**
 
 I’m a software engineer with over five years of experience building enterprise platforms, customizing Odoo and AI-powered systems, and developing practical solutions for complex workflows. My work spans government and enterprise organizations, imaging, multimodal AI, computer vision, HCI, and interactive 3D applications.
 
