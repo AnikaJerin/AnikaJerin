@@ -36,8 +36,9 @@ I’m a software engineer with over five years of experience building enterprise
 
 ### My engineering map
 
-<table>
-<tr><td align="center" width="25%"><strong>BUILD & CONNECT</strong></td><td><img src="https://skillicons.dev/icons?i=py,js,react,flask,fastapi,postgres,git,github&amp;theme=dark&amp;perline=8" width="340" alt="Python, JavaScript, React, Flask, FastAPI, PostgreSQL, Git and GitHub" /><br/>Odoo · OWL · Python · PostgreSQL · APIs</td></tr>
-<tr><td align="center"><strong>LEARN FROM DATA</strong></td><td><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn&amp;theme=dark&amp;perline=4" width="170" alt="PyTorch, TensorFlow, OpenCV and scikit-learn" /><br/>Computer vision · Machine learning · Multimodal AI</td></tr>
-<tr><td align="center"><strong>MAKE IT VISIBLE</strong></td><td><img src="https://skillicons.dev/icons?i=threejs,html,css,c,cpp,java,go&amp;theme=dark&amp;perline=7" width="300" alt="Three.js, HTML, CSS, C, C++, Java and Go" /><br/>Three.js · ECharts · amCharts · Chart.js</td></tr>
+<table width="100%">
+<tr><td align="center" width="23%"><strong>LANGUAGES &amp;<br/>TOOLS</strong></td><td><img src="https://skillicons.dev/icons?i=py,js,c,cpp,java,go,git,github&amp;theme=dark&amp;perline=8" width="620" alt="Python, JavaScript, C, C++, Java, Go, Git and GitHub" /><br/>Python · JavaScript · C/C++ · Java · Go · Git/GitHub</td></tr>
+<tr><td align="center"><strong>FRAMEWORKS &amp;<br/>DATA</strong></td><td><img src="https://skillicons.dev/icons?i=react,flask,fastapi,threejs,html,css,postgres&amp;theme=dark&amp;perline=7" width="620" alt="React, Flask, FastAPI, Three.js, HTML, CSS and PostgreSQL" /><br/>React · Flask · FastAPI · Odoo/OWL · PostgreSQL · APIs</td></tr>
+<tr><td align="center"><strong>ML &amp; COMPUTER<br/>VISION</strong></td><td><img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn&amp;theme=dark&amp;perline=4" width="620" alt="PyTorch, TensorFlow, OpenCV and scikit-learn" /><br/>Machine learning · Computer vision · Multimodal AI</td></tr>
+<tr><td align="center"><strong>DEPLOYMENT &amp;<br/>PLATFORM</strong></td><td><img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,aws,githubactions,nginx&amp;theme=dark&amp;perline=6" width="620" alt="Docker, Kubernetes, Linux, AWS, GitHub Actions and NGINX" /><br/>Docker · Kubernetes · Linux · AWS · CI/CD · NGINX</td></tr>
 </table>
