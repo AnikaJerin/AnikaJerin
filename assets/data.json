@@ -6,6 +6,14 @@
     "JavaScript": 2,
     "Go": 1
   },
+  "language_profile": {
+    "Python": 18,
+    "Jupyter Notebook": 9,
+    "JavaScript": 2,
+    "Go": 1,
+    "C": 1,
+    "C++": 1
+  },
   "unclassified": 7,
   "forks": 1,
   "years": {

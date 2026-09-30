@@ -26,8 +26,8 @@ I’m a software engineer with over five years of experience building enterprise
 <td width="38%"><img src="assets/activity.svg" width="100%" alt="Contribution streak, commits, pull requests and issues" /></td>
 </tr>
 <tr>
-<td width="50%"><img src="assets/languages.gif" width="100%" alt="Animated donut chart of public repository primary languages" /></td>
-<td width="50%"><img src="assets/languages.svg" width="100%" alt="Language counts, percentages, and other languages and frameworks used" /></td>
+<td width="50%" valign="top"><img src="assets/languages.gif" width="100%" alt="Animated doughnut chart of language distribution, including C and C++" /></td>
+<td width="50%" valign="top"><img src="assets/languages.svg" width="100%" alt="Recruiter-focused GitHub profile activity highlights" /></td>
 </tr>
 </table>
 
