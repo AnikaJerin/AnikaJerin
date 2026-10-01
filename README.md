@@ -16,7 +16,7 @@ I’m a software engineer with over five years of experience building enterprise
 🔭 **Curious by nature** — I love exploring ideas, learning unfamiliar things, and seeing where they lead.
 
 🇫🇷 **Fun Fact: I'm Taking French Lessons** — *Prends le temps de vivre.* 🌻  
-<sub>Take time to live.</sub>
+<sub>**Take time to live.**</sub>
 
 ### GitHub analytics
 
